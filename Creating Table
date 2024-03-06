@@ -1,0 +1,12 @@
+#1 COPY INTO: this copies data from file to table just once
+https://docs.databricks.com/en/sql/language-manual/delta-copy-into.html
+
+EX:
+
+CREATE TABLE IF NOT EXISTS table_name;
+COPY INTO table_name
+  FROM /data/my_data.csv
+  FILEFORMAT = csv
+  --------------------
+  FROM /data/*.json
+  PATTERN "*.json"
