@@ -1,4 +1,5 @@
-#1 COPY INTO: this copies data from file to table just once
+#1 
+COPY INTO: is idempotent, meaning re-running it with the same source data will not duplicate rows.
 https://docs.databricks.com/en/sql/language-manual/delta-copy-into.html
 
 EX:
@@ -10,3 +11,10 @@ COPY INTO table_name
   --------------------
   FROM /data/*.json
   PATTERN "*.json"
+  --------------------
+  FILEFORMAT = parquet
+  OPTIONS partitionBy = "date"
+
+  FORMAT_OPTIONS delimiter = ","
+  FORMAT_OPTIONS ('inferSchema'='true', 'header'='true')
+
