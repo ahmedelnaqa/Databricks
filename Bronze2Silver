@@ -1,0 +1,4 @@
+#1 Deep Clone: creat a table with the same data in the silver layer. same as (trunc then load)
+
+CREATE TABLE IF EXISTS table_name_silver
+  DEEP CLONE table_name_bronze;
