@@ -1,1 +1,1 @@
-List of full projcts
+List of Databricks projects
