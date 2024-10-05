@@ -14,3 +14,6 @@ Furthermore, a **dashboard** will be developed to provide a clear and interactiv
 3. Build Fact and Dimension tables to optimize data storage and querying.
 4. Implement Databricks for data analysis and visualization.
 5. Create a dashboard to present key findings and track current data trends.
+
+**ERD**
+![ERD design in star schema](http://uber2.jpg)
