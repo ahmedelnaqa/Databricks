@@ -16,4 +16,4 @@ Furthermore, a **dashboard** will be developed to provide a clear and interactiv
 5. Create a dashboard to present key findings and track current data trends.
 
 **ERD**
-![ERD design in star schema](http://uber2.jpg)
+![ERD design in star schema](Projects/Uber Data/uber2.jpg)
