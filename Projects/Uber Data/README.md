@@ -15,6 +15,9 @@ Furthermore, a **dashboard** will be developed to provide a clear and interactiv
 4. Implement Databricks for data analysis and visualization.
 5. Create a dashboard to present key findings and track current data trends.
 
+**Youtube link:** https://www.youtube.com/watch?v=dhMy3wu4k50
+
 **ERD**
 </br>
 ![ERD design in star schema](https://github.com/ahmedelnaqa/Databricks/blob/main/Projects/Uber%20Data/uber2.jpg)
+
